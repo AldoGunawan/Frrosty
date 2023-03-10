@@ -1,0 +1,241 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://img.freepik.com/free-vector/snowy-christmas-landscape_1048-9040.jpg?w=1380&t=st=1678354984~exp=1678355584~hmac=8fae53b67d72f4066a70ffdd8cde5afdc211f9a07fe5c323321453c011da3e73);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: black;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(4, 109, 158, 0.15);
+    backdrop-filter: blur(5px); 
+    z-index: 1;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.column {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.column .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:comic sans ms;
+    color: #2F8F9D;
+}
+
+h2 {
+    font-family: Trebuchet MS;
+    font-weight: 800;
+    font-size: 45px;
+    color: #2F8F9D;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.btn-1 {
+    background: #256D85;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-1:hover {
+    background: #9C9EFE;
+    text-decoration: none;
+}
+
+a.btn-2 {
+    background: #9C9EFE;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-2:hover {
+    background: #256D85;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+img.right {
+    float: right;
+    margin: 5px;
+}
+
+.mid{
+    text-align: center;
+    width: 100%;
+}
+.listpartner {
+    width: 100%;
+    position: relative;
+    display: flex; 
+}
+.imgpart{
+    width: 20%;
+    margin: 0 auto;
+}
+.imgpart img {
+    width: 80%;
+    border-radius: 10%;
+}
+.imgpart p{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #2F8F9D;
+}
+
+#contact {
+    background: #81C6E8;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footersect {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: courier;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2F8F9D;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0x 50px 0px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 991.98px){
+    .wrap {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .imgpart {
+        width: 50%;
+    }
+
+}
